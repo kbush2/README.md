@@ -1,0 +1,59 @@
+# Splunk Scheduling Reports & Alerts Lab
+
+## 📌 Overview
+This project documents my hands-on practice with **Splunk Scheduling Reports & Alerts**, completed as part of my Splunk Core Certified User training. It demonstrates how to automate searches, configure alerts, and manage notifications in a SIEM environment.
+
+---
+
+## 🔑 Skills Practiced
+- Creating and scheduling reports
+- Configuring real-time and interval alerts
+- Setting throttling rules to limit alert noise
+- Managing permissions for reports and alerts
+- Testing trigger conditions and reviewing triggered actions
+
+---
+
+## 📂 Contents
+- `queries/` → SPL queries used in the lab
+- `screenshots/` → Key steps and results (reports, alerts firing)
+- `video/` → Recorded walkthrough of the lab (optional link or upload)
+- `README.md` → Documentation of steps and lessons learned
+
+---
+
+## 🖼️ Screenshots
+![Report Screenshot](screenshots/report_example.png)
+![Alert Screenshot](screenshots/alert_example.png)
+
+---
+
+## 🚀 How to Reproduce
+1. Open Splunk Search & Reporting app
+2. Run a base search (e.g. `index=_internal sourcetype=splunkd`)
+3. Save search as a **Report** and configure scheduling options
+4. Create an **Alert** with trigger conditions (real-time or scheduled)
+5. Configure **throttling and permissions**
+6. Test and validate triggered actions (e.g. email, webhook, log entry)
+
+---
+
+## 📘 Lessons Learned
+- Scheduled reports are essential for recurring monitoring & dashboards  
+- Alerts require careful tuning to avoid false positives/noise  
+- Throttling and permissions give better control of notifications  
+- Documentation and recording help showcase technical skills  
+
+---
+
+## 📎 Resources
+- [Splunk Docs: Schedule Reports](https://docs.splunk.com/Documentation/Splunk/latest/Report/Schedulereports)  
+- [Splunk Docs: Alerts](https://docs.splunk.com/Documentation/Splunk/latest/Alert/Aboutalerts)  
+
+---
+
+## 🧑‍💻 Author
+**Kamal “KJ” Bush**  
+- U.S. Army Veteran | Active Secret Clearance | Cybersecurity Graduate Student  
+- Currently pursuing **CompTIA Security+** & **ISC² Certified in Cybersecurity (CC)**  
+- [LinkedIn Profile](https://www.linkedin.com/in/kamal-bush)  
